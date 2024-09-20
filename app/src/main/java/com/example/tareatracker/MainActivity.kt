@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        // Aquí puedes aplicar estilos o modificaciones si es necesario, pero sin inflar duplicados.
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
