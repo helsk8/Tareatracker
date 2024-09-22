@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_profile">
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.tareatracker.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:name="com.example.tareatracker.ui.ProfileFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/nav_gallery"
@@ -22,4 +22,35 @@
         android:name="com.example.tareatracker.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.tareatracker.ui.ProfileFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_photos"
+        android:name="com.example.tareatracker.ui.PhotosFragment"
+        android:label="Fotos"
+        tools:layout="@layout/fragment_photos" />
+
+    <fragment
+        android:id="@+id/nav_video"
+        android:name="com.example.tareatracker.ui.VideoFragment"
+        android:label="Video"
+        tools:layout="@layout/fragment_video" />
+
+    <fragment
+        android:id="@+id/nav_web"
+        android:name="com.example.tareatracker.ui.WebFragment"
+        android:label="Web"
+        tools:layout="@layout/fragment_web" />
+
+    <fragment
+        android:id="@+id/nav_buttons"
+        android:name="com.example.tareatracker.ui.ButtonsFragment"
+        android:label="Web"
+        tools:layout="@layout/fragment_buttons" />
+
 </navigation>
