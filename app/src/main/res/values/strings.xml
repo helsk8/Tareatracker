@@ -10,4 +10,15 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+<!--    PROFILE-->
+    <string name="profileName">Perfil</string>
+    <string name="taskPendings">Tareas pendientes</string>
+    <string name="taskComplete">Tareas completadas</string>
+    <string name="quantity">15</string>
+    <string name="quantityComplete">3</string>
+    <string name="descriptionProfile">Desarrolladora de software con experiencia en la creación de soluciones innovadoras y eficientes. Especializada en tecnologías front-end y backend, con un enfoque en la mejora de la experiencia del usuario.</string>
+    <string name="nameProfile">Hira Rios</string>
+    <string name="rolProfile">Desarrolladora de software</string>
+    <string name="cityProfile">Bogotá DC</string>
+    <string name="menu_icon">Menu icon</string>
 </resources>
