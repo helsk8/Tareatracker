@@ -30,4 +30,11 @@
     <string name="rolProfile">Desarrolladora de software</string>
     <string name="cityProfile">Bogotá DC</string>
     <string name="menu_icon">Menu icon</string>
+    <string name="add_task">Agregar tarea</string>
+    <string name="task_name_hint">Nombre de la tarea</string>
+    <string name="task_description_hint">Descripción</string>
+    <string name="save_task">Guardar tarea</string>
+    <string name="cancel">Cancelar</string>
 </resources>
+
+
