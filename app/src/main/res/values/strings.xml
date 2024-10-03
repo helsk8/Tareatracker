@@ -35,6 +35,7 @@
     <string name="task_description_hint">Descripción</string>
     <string name="save_task">Guardar tarea</string>
     <string name="cancel">Cancelar</string>
+    <string name="task_image_desc">Imagen de una tarea</string>
 </resources>
 
 
