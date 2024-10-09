@@ -2,12 +2,47 @@
     <string name="app_name">TareaTracker</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_photos">Fotos</string>
+    <string name="menu_video">Video</string>
+    <string name="menu_web">Web</string>
+    <string name="menu_buttons">Botones</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galería</string>
+    <string name="menu_slideshow">Diapositivas</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+<!--    <string name="action_settings">Settings</string>-->
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+<!--    <string name="menu_home">Home</string>-->
+<!--    <string name="menu_gallery">Tareas</string>-->
+<!--    <string name="menu_slideshow">Slideshow</string>-->
+    <string name="task_title">Realizar ideas</string>
+    <string name="text_usuario">Debes realizar el listado general de tus ideas para el proyecto</string>
+
+    <!--    <string name="action_settings">Settings</string>-->
+    <!--    <string name="menu_home">Home</string>-->
+    <!--    <string name="menu_gallery">Gallery</string>-->
+    <!--    <string name="menu_slideshow">Slideshow</string>-->
+    <!--    PROFILE-->
+    <string name="profileName">Perfil</string>
+    <string name="taskPendings">Tareas pendientes</string>
+    <string name="taskComplete">Tareas completadas</string>
+    <string name="quantity">15</string>
+    <string name="quantityComplete">3</string>
+    <string name="descriptionProfile">Desarrolladora de software con experiencia en la creación de soluciones innovadoras y eficientes. Especializada en tecnologías front-end y backend, con un enfoque en la mejora de la experiencia del usuario.</string>
+    <string name="nameProfile">Hira Rios</string>
+    <string name="rolProfile">Desarrolladora de software</string>
+    <string name="cityProfile">Bogotá DC</string>
+    <string name="menu_icon">Menu icon</string>
+    <string name="task_complete">Marcar como completado</string>
+    <string name="add_task">Agregar tarea</string>
+    <string name="task_name_hint">Nombre de la tarea</string>
+    <string name="task_description_hint">Descripción</string>
+    <string name="save_task">Guardar tarea</string>
+    <string name="cancel">Cancelar</string>
+    <string name="task_image_desc">Imagen de una tarea</string>
 </resources>

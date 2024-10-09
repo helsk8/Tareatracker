@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#EEF7FA">
+
+    <!-- EditText for URL input -->
+    <EditText
+        android:id="@+id/urlEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="https://"
+        android:inputType="textUri"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:textSize="16sp"
+        android:elevation="2dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Button for Loading URL -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#336A7F"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="2dp"
+        android:textSize="16sp" />
+
+    <!-- WebView for displaying web content -->
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+</LinearLayout>
